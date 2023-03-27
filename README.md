@@ -43,12 +43,12 @@ scipy==1.9.2
 (a) The averaged fidelity estimation results returned by QAE-based fidelity estimator. The labels QAEFL and QAEFU refer to the bound in Theorem 2, respectively, where $\delta$ is the loss of QAE. The label "SSFBU" ("SSFBL") is super-fidelity (sub-fidelity) bounds.  (b) The top-1 fidelity estimation results achieved by QAE-based fidelity estimator. All notations follows the same meaning as those in (d). (c) The averaged training loss of the QAE-based fidelity estimator in the first stage. The label “K = a” refers to the employed number of latent qubits of the QAE-based fidelity estimator is a. The shadow region refers to the variance. (d) The top-1 training loss achieved by QAE-based fidelity estimator. All notations follows the same meaning as those in (c). 
 
 * Quantum Fisher information estimation
-![](assests/QAE-QFI.png)
+![](assests/QAE-QFI.png =100x100)
  The outer and inner plots depict the average and top-1 performance of the proposed QAE-based QFI estimator. The label "Exact" and "Estimator" separately represent the maximum QFI that can be achieved and the estimated QFI returned by the proposed estimator. 
 
 * Quantum Gibbs state preparation
-![](assests/QAE-Gibbs.png)
- The label "$\beta=x$"" represents how the average fidelity $\FF(\rho(\bm{\gamma}),\rho_G)$ evolves in $T=200$ iterations when the inverse temperature $\beta$ is set as $x$. The shadow region represents variance. The inner plot shows the top-1 performance of each setting.
+![](assests/QAE-Gibbs.png =100x100)
+ The label "$\beta=x$"" represents how the average fidelity $F(\rho(\gamma),\rho_G)$ evolves in $T=200$ iterations when the inverse temperature $\beta$ is set as $x$. The shadow region represents variance. The inner plot shows the top-1 performance of each setting.
 
   ---
 
